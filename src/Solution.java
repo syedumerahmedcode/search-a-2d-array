@@ -33,7 +33,7 @@ public class Solution {
              * This is how we calculate the value within the 2d matrix using the mid point
              * calculated above
              */
-            int midValue = matrix[mid / 2][mid % n];
+            int midValue = matrix[mid / n][mid % n];
             if (midValue == target) {
                 return true;
             } else if (midValue < target) {
